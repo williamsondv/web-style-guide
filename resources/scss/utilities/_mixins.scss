@@ -1,0 +1,6 @@
+@mixin lighten-button($background-color) {
+  
+  background-color: lighten($background-color,15%);
+  transition: background-color 1.5s ease;
+  
+}
